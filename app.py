@@ -59,7 +59,7 @@ HTML_TEMPLATE = """
         <form action="/islem" method="post">
             <input type="number" name="miktar" placeholder="Miktar giriniz" required>
             <br>
-            <button name="aksiyon" value="yatir">Para Yatır</button>
+            <button name="aksiyon" value="yatir">Bakiye Ekle</button>
             <button name="aksiyon" value="cek" style="background: #d13438;">Para Çek</button>
         </form>
     </div>
